@@ -5,11 +5,12 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
 } from 'typeorm';
+import Goal from '../goals/goal.respository';
 
 @Entity()
-export class UserEntity {
-  @PrimaryGeneratedColumn()
-  id: number;
+export class User {
+  @PrimaryGeneratedColumn('uuid')
+  id: string;
 
   @Column()
   username: string;
@@ -29,4 +30,7 @@ export class UserEntity {
     onUpdate: 'CURRENT_TIMESTAMP',
   })
   updatedAt: Date;
+
+  @OneToMany(() => Goal, (goal) => goal.user)
+  goals: Goal[];
 }
