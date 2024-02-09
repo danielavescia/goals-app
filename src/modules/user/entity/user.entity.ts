@@ -4,11 +4,14 @@ import {
   Column,
   CreateDateColumn,
   UpdateDateColumn,
+  OneToMany,
+  BaseEntity,
 } from 'typeorm';
-import Goal from '../goals/goal.respository';
+import { Goal } from '../../goals/entity/goal.entity';
+import { IUser } from '../models/interface/iuser.interface';
 
 @Entity()
-export class User {
+export class User extends BaseEntity implements IUser {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
