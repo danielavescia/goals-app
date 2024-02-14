@@ -30,13 +30,13 @@ View progress dashboards with intuitive visualizations.
 ---
 
 ## Technologies Used
-## Backend:
+### Backend:
 - NestJS 
 - TypeORM 
 - PostgreSQL 
 - Docker 
 
-## Frontend:
+### Frontend:
 - React
 
 
