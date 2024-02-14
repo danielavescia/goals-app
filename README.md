@@ -9,15 +9,6 @@ Break down goals into actionable steps with checklists.
 Reflect on your journey and gain valuable insights.
 Built with modern technologies, Goal Tracker offers a seamless experience across platforms:
 ---
-## Backend:
-- NestJS 
-- TypeORM 
-- PostgreSQL 
-- Docker 
-
-## Frontend:
-- React
-
 ## Features:
 ### 🏆 Goal Management:
 Add, edit, and delete goals.
@@ -36,7 +27,16 @@ Stay focused and accountable with clear steps to action.
 ---
 ### 🔎 Progress Tracking:
 View progress dashboards with intuitive visualizations.
-Monitor goal completion rates and milestones achieved.
-Analyze trends and identify areas for improvement.
+---
+
+## Technologies Used
+## Backend:
+- NestJS 
+- TypeORM 
+- PostgreSQL 
+- Docker 
+
+## Frontend:
+- React
 
 
