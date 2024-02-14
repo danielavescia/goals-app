@@ -14,12 +14,11 @@ Built with modern technologies, Goal Tracker offers a seamless experience across
 - TypeORM 
 - PostgreSQL 
 - Docker 
----
+
 ## Frontend:
 - React
----
-## Features:
 
+## Features:
 ### Goal Management:
 Add, edit, and delete goals.
 Organize goals by categories and priorities.
